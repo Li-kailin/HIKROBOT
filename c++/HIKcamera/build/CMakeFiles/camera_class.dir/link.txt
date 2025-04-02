@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG -shared -Wl,-soname,libcamera_class.so -o libcamera_class.so CMakeFiles/camera_class.dir/camera_class.cpp.o CMakeFiles/camera_class.dir/mycamera.cpp.o   -L/home/lkl/A-LKL/gig-e_camera/lib/64  -Wl,-rpath,/home/lkl/A-LKL/gig-e_camera/lib/64 /home/lkl/A-LKL/gig-e_camera/lib/64/libMvCameraControl.so 
